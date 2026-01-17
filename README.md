@@ -23,6 +23,9 @@ Wilson Javier Mejia Cuasquer
 Soy estudiante de Ingeniería de Sistemas en la universidad de Nariño sede Ipiales,soy una persona interesada en la tecnología, el desarrollo de software y el análisis de datos, con motivación por aprender y mejorar constantemente.
 Mi objetivo es seguir fortaleciendo mis habilidades técnicas y profesionales, aportando valor en proyectos académicos y laborales mediante el uso inteligente de la tecnología.
 
+Jackson Ivan Mallama Rojas
+"Mi nombre es Jackson Ivan Mallama Rojas, tengo 23 años, vivo en Pasto y estoy a punto de graduarme como ingeniero de sistemas. Lo que más me atrapó de esta carrera es que nunca se queda quieta; siempre hay algo nuevo que aprender y puedes aplicarla en cualquier campo que te imagines. Me gusta mucho el mundo del desarrollo web, pero donde realmente disfruto meterle mano a los proyectos es en el manejo de bases de datos; me parece increíble cómo puedes estructurar toda esa información para que algo complejo funcione de forma impecable. Fuera del código y las pantallas, mi gran pasión son las motos. Me encanta salir a la carretera y dedicar mi tiempo libre a conocer pueblos, porque me ayuda a despejar la mente y disfrutar del camino mientras descubro lugares nuevos".
+
 ## Stack tecnologico
 
 ## 🛠️ Stack Tecnológico
