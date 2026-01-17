@@ -28,6 +28,11 @@ Jackson Ivan Mallama Rojas
 
 Cristian Moreno Pantoja
 Mi nombre es Cristian Moreno Pantoja tengo 23 años y actualmente estoy viviendo en pasto trabajando en el dia, ademas de que me dempeño como tatuador los fines de semana, aspiro a terminar la carrera y a dedicarme o encontrar un lugar donde me pueda desempeñar como programador porque siento que soy bueno haciendo eso y me dedico bastante y me preparo en cosas en las cuales quiero hacer bien. 
+
+Mateo Nicolás Pérez Bastidas
+Soy estudiante de Ingeniería de Sistemas con experiencia en el desarrollo de proyectos académicos, especialmente en aplicaciones web y el manejo de bases de datos. He trabajado con herramientas como Python, JavaScript y MySQL, lo que me ha permitido ir fortaleciendo mis conocimientos poco a poco. Me considero una persona responsable, con disposición para aprender y seguir mejorando mis habilidades tanto a nivel académico como personal.
+
+
 ## Stack tecnologico
 
 ## 🛠️ Stack Tecnológico
