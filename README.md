@@ -1,44 +1,76 @@
-# minimal-repro
+# Taller1
 
-**Quickly create and share examples of Electron app behaviors or bugs.**
+# Control de gastos diarios con alertas
 
-> [!NOTE]
-> This repro was renamed from `electron-quick-start` to clarify its purpose as a repro template. If you're looking to boostrap a new Electron app, check out the [Electron Forge](https://www.electronforge.io/) docs instead to get started!
+## Descripción del problema
 
-Creating a minimal reproduction (or "minimal repro") is essential when troubleshooting Electron apps. By stripping away everything except the code needed to demonstrate a specific behavior or bug, it becomes easier for others to understand, debug, and fix issues. This focused approach saves time and ensures that everyone involved is looking at exactly the same problem without distractions.
+En el día a día, es muy común gastar dinero en cosas pequeñas sin darnos cuenta. Pasajes, comidas rápidas, antojos, salidas o suscripciones parecen inofensivas, pero al repetirse constantemente terminan afectando nuestro bolsillo más de lo que imaginamos. Muchas veces recién al final del mes notamos que el dinero no alcanzó, generando preocupación y estrés.
 
-A basic Electron application contains:
+La mayoría de las personas no cuenta con una herramienta sencilla que les ayude a ver claramente en qué se va su dinero. Sin un registro fácil y visual, resulta difícil identificar hábitos de gasto o saber en qué se podría ahorrar, lo que impide tomar decisiones a tiempo.
 
-- `package.json` - Points to the app's main file and lists its details and dependencies.
-- `main.js` - Starts the app and creates a browser window to render HTML. This is the app's **main process**.
-- `index.html` - A web page to render. This is the app's **renderer process**.
-- `preload.js` - A content script that runs before the renderer process loads.
+Además, al no tener alertas o señales claras sobre cuánto del presupuesto ya se ha utilizado, se sigue gastando sin control. Esto puede llevar a endeudarse o a no poder ahorrar. Esta situación afecta especialmente a estudiantes, trabajadores independientes y personas con ingresos ajustados, quienes necesitan soluciones prácticas, simples y accesibles para manejar mejor sus finanzas personales.
 
-You can learn more about each of these components in depth within the [Tutorial](https://electronjs.org/docs/latest/tutorial/tutorial-prerequisites).
+## Grupo 5
 
-## To Use
 
-To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+## Integrantes 
 
-```bash
-# Clone this repository
-git clone https://github.com/electron/minimal-repro
-# Go into the repository
-cd minimal-repro
-# Install dependencies
-npm install
-# Run the app
-npm start
-```
+Jhonatan Alexander Portilla Olivo: 
+estudiante de Ingeniería de Sistemas en la universidad de Nariño sede Ipiales, con interés en el desarrollo de software y aplicaciones web orientada a la resolución de problemas, buscando aplicar la tecnología como una herramienta para mejorar procesos y crear soluciones prácticas a problemáticas reales.
 
-Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
 
-## Resources for Learning Electron
+Wilson Javier Mejia Cuasquer
+Soy estudiante de Ingeniería de Sistemas en la universidad de Nariño sede Ipiales,soy una persona interesada en la tecnología, el desarrollo de software y el análisis de datos, con motivación por aprender y mejorar constantemente.
+Mi objetivo es seguir fortaleciendo mis habilidades técnicas y profesionales, aportando valor en proyectos académicos y laborales mediante el uso inteligente de la tecnología.
 
-- [electronjs.org/docs](https://electronjs.org/docs) - all of Electron's documentation
-- [Electron Fiddle](https://electronjs.org/fiddle) - Electron Fiddle, an app to test small Electron experiments
-- [Electron Forge](https://www.electronforge.io/) - Looking to bootstrap a new Electron app? Check out the Electron Forge docs to get started
+Jackson Ivan Mallama Rojas
+"Mi nombre es Jackson Ivan Mallama Rojas, tengo 23 años, vivo en Pasto y estoy a punto de graduarme como ingeniero de sistemas. Lo que más me atrapó de esta carrera es que nunca se queda quieta; siempre hay algo nuevo que aprender y puedes aplicarla en cualquier campo que te imagines. Me gusta mucho el mundo del desarrollo web, pero donde realmente disfruto meterle mano a los proyectos es en el manejo de bases de datos; me parece increíble cómo puedes estructurar toda esa información para que algo complejo funcione de forma impecable. Fuera del código y las pantallas, mi gran pasión son las motos. Me encanta salir a la carretera y dedicar mi tiempo libre a conocer pueblos, porque me ayuda a despejar la mente y disfrutar del camino mientras descubro lugares nuevos".
 
-## License
+Cristian Moreno Pantoja
+Mi nombre es Cristian Moreno Pantoja tengo 23 años y actualmente estoy viviendo en pasto trabajando en el dia, ademas de que me dempeño como tatuador los fines de semana, aspiro a terminar la carrera y a dedicarme o encontrar un lugar donde me pueda desempeñar como programador porque siento que soy bueno haciendo eso y me dedico bastante y me preparo en cosas en las cuales quiero hacer bien. 
 
-[CC0 1.0 (Public Domain)](LICENSE.md)
+Mateo Nicolás Pérez Bastidas
+Soy estudiante de Ingeniería de Sistemas con experiencia en el desarrollo de proyectos académicos, especialmente en aplicaciones web y el manejo de bases de datos. He trabajado con herramientas como Python, JavaScript y MySQL, lo que me ha permitido ir fortaleciendo mis conocimientos poco a poco. Me considero una persona responsable, con disposición para aprender y seguir mejorando mis habilidades tanto a nivel académico como personal.
+
+
+## Stack tecnologico
+
+## 🛠️ Stack Tecnológico
+
+### React
+React es una biblioteca de JavaScript utilizada para el desarrollo de interfaces de usuario interactivas y dinámicas. Permite crear componentes reutilizables, optimizar el rendimiento de la aplicación y facilitar la gestión del estado en aplicaciones web modernas.
+
+Características principales:
+
+*Arquitectura modular (módulos, controladores y servicios).
+*Uso de TypeScript con tipado fuerte.
+*Soporte nativo para REST APIs, GraphQL y WebSockets.
+*Integración con ORMs como TypeORM y Prisma.
+*Inyección de dependencias integrada.
+*Facilita pruebas unitarias y de integración.
+
+¿Para qué se usa?
+
+*Desarrollo de APIs robustas.
+*Sistemas empresariales.
+*Microservicios.
+*Backend para aplicaciones web y móviles.
+
+### NestJS
+NestJS es un framework de Node.js orientado al desarrollo de aplicaciones backend escalables y mantenibles. Está basado en TypeScript y utiliza una arquitectura modular que facilita la creación de APIs robustas y estructuradas.
+
+Características principales:
+
+*Arquitectura basada en componentes.
+*Uso del Virtual DOM para mejorar el rendimiento.
+*Programación declarativa.
+*Flujo de datos unidireccional.
+*Amplio ecosistema de librerías.
+*Compatible con TypeScript.
+
+¿Para qué se usa?
+
+*Desarrollo de interfaces web modernas.
+*Aplicaciones SPA (Single Page Applications).
+*Dashboards y sistemas interactivos.
+*Frontend conectado a APIs REST o GraphQL.
