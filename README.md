@@ -26,6 +26,8 @@ Mi objetivo es seguir fortaleciendo mis habilidades técnicas y profesionales, a
 Jackson Ivan Mallama Rojas
 "Mi nombre es Jackson Ivan Mallama Rojas, tengo 23 años, vivo en Pasto y estoy a punto de graduarme como ingeniero de sistemas. Lo que más me atrapó de esta carrera es que nunca se queda quieta; siempre hay algo nuevo que aprender y puedes aplicarla en cualquier campo que te imagines. Me gusta mucho el mundo del desarrollo web, pero donde realmente disfruto meterle mano a los proyectos es en el manejo de bases de datos; me parece increíble cómo puedes estructurar toda esa información para que algo complejo funcione de forma impecable. Fuera del código y las pantallas, mi gran pasión son las motos. Me encanta salir a la carretera y dedicar mi tiempo libre a conocer pueblos, porque me ayuda a despejar la mente y disfrutar del camino mientras descubro lugares nuevos".
 
+Cristian Moreno Pantoja
+Mi nombre es Cristian Moreno Pantoja tengo 23 años y actualmente estoy viviendo en pasto trabajando en el dia, ademas de que me dempeño como tatuador los fines de semana, aspiro a terminar la carrera y a dedicarme o encontrar un lugar donde me pueda desempeñar como programador porque siento que soy bueno haciendo eso y me dedico bastante y me preparo en cosas en las cuales quiero hacer bien. 
 ## Stack tecnologico
 
 ## 🛠️ Stack Tecnológico
