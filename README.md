@@ -18,6 +18,11 @@ Además, al no tener alertas o señales claras sobre cuánto del presupuesto ya 
 Jhonatan Alexander Portilla Olivo: 
 estudiante de Ingeniería de Sistemas en la universidad de Nariño sede Ipiales, con interés en el desarrollo de software y aplicaciones web orientada a la resolución de problemas, buscando aplicar la tecnología como una herramienta para mejorar procesos y crear soluciones prácticas a problemáticas reales.
 
+
+Wilson Javier Mejia Cuasquer
+Soy estudiante de Ingeniería de Sistemas en la universidad de Nariño sede Ipiales,soy una persona interesada en la tecnología, el desarrollo de software y el análisis de datos, con motivación por aprender y mejorar constantemente.
+Mi objetivo es seguir fortaleciendo mis habilidades técnicas y profesionales, aportando valor en proyectos académicos y laborales mediante el uso inteligente de la tecnología.
+
 ## Stack tecnologico
 
 ## 🛠️ Stack Tecnológico
@@ -25,5 +30,37 @@ estudiante de Ingeniería de Sistemas en la universidad de Nariño sede Ipiales,
 ### React
 React es una biblioteca de JavaScript utilizada para el desarrollo de interfaces de usuario interactivas y dinámicas. Permite crear componentes reutilizables, optimizar el rendimiento de la aplicación y facilitar la gestión del estado en aplicaciones web modernas.
 
+Características principales:
+
+*Arquitectura modular (módulos, controladores y servicios).
+*Uso de TypeScript con tipado fuerte.
+*Soporte nativo para REST APIs, GraphQL y WebSockets.
+*Integración con ORMs como TypeORM y Prisma.
+*Inyección de dependencias integrada.
+*Facilita pruebas unitarias y de integración.
+
+¿Para qué se usa?
+
+*Desarrollo de APIs robustas.
+*Sistemas empresariales.
+*Microservicios.
+*Backend para aplicaciones web y móviles.
+
 ### NestJS
 NestJS es un framework de Node.js orientado al desarrollo de aplicaciones backend escalables y mantenibles. Está basado en TypeScript y utiliza una arquitectura modular que facilita la creación de APIs robustas y estructuradas.
+
+Características principales:
+
+*Arquitectura basada en componentes.
+*Uso del Virtual DOM para mejorar el rendimiento.
+*Programación declarativa.
+*Flujo de datos unidireccional.
+*Amplio ecosistema de librerías.
+*Compatible con TypeScript.
+
+¿Para qué se usa?
+
+*Desarrollo de interfaces web modernas.
+*Aplicaciones SPA (Single Page Applications).
+*Dashboards y sistemas interactivos.
+*Frontend conectado a APIs REST o GraphQL.
