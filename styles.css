@@ -1,5 +1,229 @@
-/* styles.css */
-h1{
-    color: green;
+/* Configuración general
+body {
+    scroll-behavior: smooth;
+    padding-top: 70px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-/* Add styles here to customize the appearance of your app */
+
+/* HERO 
+.hero {
+    background: linear-gradient(135deg, #0d6efd, #0b5ed7);
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-weight: 700;
+}
+
+/* Secciones 
+.section-padding {
+    padding: 80px 20px;
+}
+
+.section-title {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/* Tarjetas equipo 
+.team-card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.team-card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+/* Tecnología 
+.tech-card {
+    border: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer 
+footer {
+    background-color: #212529;
+    color: #adb5bd;
+    padding: 20px;
+    text-align: center;
+}*/
+/* ===============================
+   PALETA INSTITUCIONAL UNARIÑO
+================================ */
+:root {
+    --verde: #1f7a3f;
+    --amarillo: #f2b705;
+    --rojo: #b11226;
+    --negro: #1c1c1c;
+    --blanco: #ffffff;
+    --gris-claro: #f5f6f7;
+}
+
+/* ===============================
+   ESTILOS GENERALES
+================================ */
+body {
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    background-color: var(--blanco);
+    color: var(--negro);
+    line-height: 1.6;
+    scroll-behavior: smooth;
+    padding-top: 75px;
+}
+
+/* ===============================
+   NAVBAR
+================================ */
+.navbar {
+    background-color: var(--verde) !important;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.navbar-nav .nav-link {
+    color: var(--blanco);
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--amarillo);
+}
+
+/* ===============================
+   HERO
+================================ */
+.hero {
+    background: linear-gradient(
+        rgba(31, 122, 63, 0.9),
+        rgba(31, 122, 63, 0.9)
+    );
+    color: var(--blanco);
+    padding: 120px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-weight: 800;
+    font-size: 2.4rem;
+}
+
+.hero p {
+    max-width: 780px;
+    margin: auto;
+    font-size: 1.1rem;
+}
+
+/* ===============================
+   SECCIONES
+================================ */
+.section-padding {
+    padding: 80px 20px;
+}
+
+.section-title {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.section-title h2 {
+    font-weight: 700;
+    color: var(--verde);
+    position: relative;
+}
+
+.section-title h2::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 4px;
+    background-color: var(--amarillo);
+    margin: 12px auto 0;
+}
+
+.section-title p {
+    color: #555;
+}
+
+/* ===============================
+   PROBLEMA
+================================ */
+#problema p {
+    font-size: 1.05rem;
+}
+
+/* ===============================
+   TARJETAS EQUIPO
+================================ */
+.team-card {
+    border: none;
+    border-radius: 6px;
+    border-top: 5px solid var(--verde);
+    transition: all 0.3s ease;
+    background-color: var(--blanco);
+}
+
+.team-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+}
+
+.team-card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.team-card .card-title {
+    font-weight: 700;
+    color: var(--verde);
+}
+
+.team-card .card-text {
+    font-size: 0.95rem;
+    color: #444;
+}
+
+/* ===============================
+   TECNOLOGÍA
+================================ */
+.tech-card {
+    border: none;
+    background-color: var(--gris-claro);
+    border-left: 6px solid var(--rojo);
+    transition: transform 0.3s ease;
+}
+
+.tech-card:hover {
+    transform: scale(1.02);
+}
+
+.tech-card h4 {
+    font-weight: 700;
+    color: var(--rojo);
+}
+
+/* ===============================
+   FOOTER
+================================ */
+footer {
+    background-color: var(--verde);
+    color: var(--blanco);
+    padding: 25px 15px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 0;
+}
