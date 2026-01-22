@@ -180,8 +180,19 @@ ul {
 }
 
 .team-card:hover {
+<<<<<<< HEAD:css/styles.css
     transform: translateY(-8px);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+=======
+    transform: translateY(-6px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+}
+
+.team-card img {
+    height: 220px;
+    width: 100%;
+    object-fit: contain;
+>>>>>>> 8bf9766844f51ab0ec6b53c032e0a19919b071f7:styles.css
 }
 
 .team-card .card-title {
