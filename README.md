@@ -74,3 +74,7 @@ Características principales:
 *Aplicaciones SPA (Single Page Applications).
 *Dashboards y sistemas interactivos.
 *Frontend conectado a APIs REST o GraphQL.
+
+## Modelo Entidad Relación
+
+![Diagrama Entidad Relación](bd.png)
