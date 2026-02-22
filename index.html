@@ -1,26 +1,198 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="es">
+<head>
     <meta charset="UTF-8">
-    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
-    <link href="./styles.css" rel="stylesheet">
-    <title>Hello World!</title>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-    We are using Node.js <span id="node-version"></span>,
-    Chromium <span id="chrome-version"></span>,
-    and Electron <span id="electron-version"></span>.
-    <h1>Wilson Javier Mejia Cuasquer</h1>
-<<<<<<< HEAD
-    <h1>Jhonatan Alexander portilla Olivo</h1>
-=======
-    <h2>Jackson Ivan Mallama Rojas</h2>
-    <h2>Mateo Nicolás Pérez Bastidas</h2>
->>>>>>> ebecb92e6cd287ef07d4431b13ef3856dd7382c8
-    <h2 id="label"></h2>
-    <!-- You can also require other files to run in this process -->
-    <script src="./renderer.js"></script>
-  </body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Control de Gastos Diarios con Alertas</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#inicio">
+            Metodologías Ágiles y Tecnologías Avanzadas
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#problema">Problema</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#equipo">Equipo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#tecnologia">Tecnología</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!-- HERO -->
+<section id="inicio" class="hero">
+    <div class="container">
+        <h1>Control de Gastos Diarios con Alertas</h1>
+        <p class="lead mt-4">
+            Aplicación web para ayudar a personas con ingresos ajustados
+            a gestionar sus gastos de forma clara, visual y eficiente.
+        </p>
+    </div>
+</section>
+
+<!-- PROBLEMA -->
+<section id="problema" class="section-padding">
+    <div class="container">
+        <div class="section-title">
+            <h2>Descripción del Problema</h2>
+            <p class="text-muted">¿Por qué es necesaria esta solución?</p>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-10 text-center">
+                <p>
+                    En el día a día, es muy común gastar dinero en cosas pequeñas sin darnos cuenta. Pasajes, comidas rápidas, antojos, salidas o suscripciones parecen inofensivas, pero al repetirse constantemente terminan afectando nuestro bolsillo más de lo que imaginamos. Muchas veces recién al final del mes notamos que el dinero no alcanzó, generando preocupación y estrés.
+                    <br><br>
+                    La mayoría de las personas no cuenta con una herramienta sencilla que les ayude a ver claramente en qué se va su dinero. Sin un registro fácil y visual, resulta difícil identificar hábitos de gasto o saber en qué se podría ahorrar, lo que impide tomar decisiones a tiempo.
+                </p>
+                <p>
+                    Este proyecto busca ofrecer una solución tecnológica que permita registrar,
+                    visualizar y analizar los gastos diarios mediante alertas claras.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- EQUIPO -->
+<section id="equipo" class="section-padding bg-light">
+    <div class="container">
+        <div class="section-title">
+            <h2>Nuestro Equipo</h2>
+            <p class="text-muted">Ingeniería de Sistemas</p>
+        </div>
+
+        <div class="row g-4">
+
+            <!-- Tarjeta -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card team-card h-100">
+                    <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Jhonatan Alexander Portilla Olivo</h5>
+                        <p class="card-text">
+                            Soy estudiante de Ingeniería de Sistemas en la Universidad de Nariño, sede Ipiales, con formación orientada al análisis, diseño y desarrollo de soluciones tecnológicas. Poseo un alto interés en el desarrollo de software y aplicaciones web, enfocándome en la resolución eficiente de problemas mediante el uso de herramientas tecnológicas que aplican el pensamiento lógico y la innovación para la optimización de procesos, con el propósito de crear soluciones prácticas, funcionales y alineadas con las necesidades de contextos reales, contribuyendo al mejoramiento continuo de los sistemas y servicios.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card team-card h-100">
+                    <img src="img/prof.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Wilson Javier Mejia Cuasquer</h5>
+                        <p class="card-text">
+                            Soy estudiante de Ingeniería de Sistemas en la universidad de Nariño sede Ipiales,soy una persona interesada en la tecnología, el desarrollo de software y el análisis de datos, con motivación por aprender y mejorar constantemente. Mi objetivo es seguir fortaleciendo mis habilidades técnicas y profesionales, aportando valor en proyectos académicos y laborales mediante el uso inteligente de la tecnología.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card team-card h-100">
+                    <img src="img/imagenjack.jpeg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Jackson Iván Mallama Rojas</h5>
+                        <p class="card-text">
+                            Mi nombre es Jackson Ivan Mallama Rojas, tengo 23 años, vivo en Pasto y estoy a punto de graduarme como ingeniero de sistemas. Lo que más me atrapó de esta carrera es que nunca se queda quieta; siempre hay algo nuevo que aprender y puedes aplicarla en cualquier campo que te imagines. Me gusta mucho el mundo del desarrollo web, pero donde realmente disfruto meterle mano a los proyectos es en el manejo de bases de datos; me parece increíble cómo puedes estructurar toda esa información para que algo complejo funcione de forma impecable. Fuera del código y las pantallas, mi gran pasión son las motos. Me encanta salir a la carretera y dedicar mi tiempo libre a conocer pueblos, porque me ayuda a despejar la mente y disfrutar del camino mientras descubro lugares nuevos
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-6">
+                <div class="card team-card h-100">
+                    <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Cristian Moreno Pantoja</h5>
+                        <p class="card-text">
+                            Mi nombre es Cristian Moreno Pantoja tengo 23 años y actualmente estoy viviendo en pasto trabajando en el dia, ademas de que me dempeño como tatuador los fines de semana, aspiro a terminar la carrera y a dedicarme o encontrar un lugar donde me pueda desempeñar como programador porque siento que soy bueno haciendo eso y me dedico bastante y me preparo en cosas en las cuales quiero hacer bien.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-6">
+                <div class="card team-card h-100">
+                    <img src="img/Foto1.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Mateo Nicolás Pérez Bastidas</h5>
+                        <p class="card-text">
+                            Soy estudiante de Ingeniería de Sistemas con experiencia en el desarrollo de aplicaciones web y en la gestión de bases de datos, participando en proyectos de carácter laboral y práctico. He trabajado con tecnologías como Python, JavaScript y MySQL, fortaleciendo de manera continua mis habilidades técnicas. Me considero una persona responsable, proactiva y con alta disposición para el aprendizaje, enfocada en seguir creciendo profesional y personalmente.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- TECNOLOGÍA -->
+<section id="tecnologia" class="section-padding">
+    <div class="container">
+        <div class="section-title">
+            <h2>Stack Tecnológico</h2>
+            <p class="text-muted">Herramientas del proyecto</p>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="card h-100 tech-card">
+                    <div class="card-body">
+                        <h4 class="text-primary">React</h4>
+                        <p>React es una biblioteca de JavaScript diseñada para crear interfaces de usuario dinámicas, rápidas y altamente interactivas, especialmente en aplicaciones web modernas. Se basa en la idea de construir la interfaz como una composición de componentes reutilizables, cada uno responsable de su propio estado y comportamiento.<br><br>
+                        
+                        Gracias a su enfoque declarativo y al uso del Virtual DOM, React optimiza las actualizaciones de la interfaz, logrando experiencias fluidas incluso en aplicaciones complejas. Es ideal para desarrollar Single Page Applications (SPA), paneles administrativos, plataformas escalables y productos centrados en la experiencia del usuario.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card h-100 tech-card">
+                    <div class="card-body">
+                        <h4 class="text-primary">NestJS</h4>
+                        <p>NestJS es un framework backend progresivo para Node.js enfocado en la creación de aplicaciones robustas, escalables y mantenibles. Está construido sobre TypeScript y se inspira en patrones de arquitectura consolidados como MVC, inyección de dependencias y programación modular, lo que facilita el desarrollo de sistemas complejos desde el inicio.<br><br>
+                          
+                        Proporciona una estructura clara y opinada que ayuda a organizar el código de forma consistente, ideal para APIs REST, GraphQL, microservicios y aplicaciones empresariales. Además, se integra de forma nativa con librerías populares como Express o Fastify, ofreciendo alto rendimiento sin sacrificar productividad.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p class="mb-0">
+        © 2026 - Ingeniería de Sistemas | Universidad de Nariño
+    </p>
+</footer>
+
+<script src="./renderer.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>

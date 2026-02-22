@@ -1,3 +1,5 @@
 node_modules/
 dist/
-.env
+win-unpacked/
+Electron/Expenses-win32-x64/
+*.exe
