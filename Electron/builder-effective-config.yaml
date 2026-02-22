@@ -1,0 +1,15 @@
+directories:
+  output: release
+  buildResources: build
+appId: com.guia.expenses
+productName: Expenses
+asar: true
+files:
+  - filter:
+      - dist/**
+      - electron/**
+      - package.json
+win:
+  target: portable
+  sign: false
+electronVersion: 31.7.7

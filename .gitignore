@@ -1,4 +1,8 @@
 node_modules/
 dist/
-.env
-.env
+
+=======
+win-unpacked/
+Electron/Expenses-win32-x64/
+*.exe
+>>>>>>> dev
