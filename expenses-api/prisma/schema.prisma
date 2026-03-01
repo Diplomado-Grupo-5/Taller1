@@ -1,9 +1,3 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
-// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
-// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
-
 generator client {
   provider = "prisma-client-js"
 }
@@ -17,35 +11,35 @@ model Usuario {
   nombre        String
   correo        String        @unique
   contrasena    String
-  cuentas       Cuenta[]
-  gastos        Gasto[]
-  categorias    Categoria[]
-  ingresos      Ingreso[]
-  presupuestos  Presupuesto[]
   creadoEn      DateTime      @default(now())
   actualizadoEn DateTime      @updatedAt
+  categorias    Categoria[]
+  cuentas       Cuenta[]
+  gastos        Gasto[]
+  ingresos      Ingreso[]
+  presupuestos  Presupuesto[]
 }
 
 model Cuenta {
   id            Int       @id @default(autoincrement())
   usuarioId     Int
-  usuario       Usuario   @relation(fields: [usuarioId], references: [id], onDelete: Cascade)
   nombre        String
-  gastos        Gasto[]
-  ingresos      Ingreso[]
   creadoEn      DateTime  @default(now())
   actualizadoEn DateTime  @updatedAt
+  usuario       Usuario   @relation(fields: [usuarioId], references: [id], onDelete: Cascade)
+  gastos        Gasto[]
+  ingresos      Ingreso[]
 }
 
 model Categoria {
   id            Int           @id @default(autoincrement())
   usuarioId     Int
-  usuario       Usuario       @relation(fields: [usuarioId], references: [id], onDelete: Cascade)
   nombre        String
-  gastos        Gasto[]
-  presupuestos  Presupuesto[]
   creadoEn      DateTime      @default(now())
   actualizadoEn DateTime      @updatedAt
+  usuario       Usuario       @relation(fields: [usuarioId], references: [id], onDelete: Cascade)
+  gastos        Gasto[]
+  presupuestos  Presupuesto[]
 
   @@unique([nombre, usuarioId])
 }
@@ -56,14 +50,14 @@ model Gasto {
   monto         Decimal    @db.Decimal(10, 2)
   fecha         DateTime
   categoriaId   Int?
-  categoria     Categoria? @relation(fields: [categoriaId], references: [id], onDelete: SetNull)
   cuentaId      Int?
-  cuenta        Cuenta?    @relation(fields: [cuentaId], references: [id], onDelete: SetNull)
   usuarioId     Int?
-  usuario       Usuario?   @relation(fields: [usuarioId], references: [id], onDelete: SetNull)
   comercio      String?
   creadoEn      DateTime   @default(now())
   actualizadoEn DateTime   @updatedAt
+  categoria     Categoria? @relation(fields: [categoriaId], references: [id])
+  cuenta        Cuenta?    @relation(fields: [cuentaId], references: [id])
+  usuario       Usuario?   @relation(fields: [usuarioId], references: [id])
 }
 
 model Ingreso {
@@ -72,11 +66,11 @@ model Ingreso {
   monto         Decimal  @db.Decimal(10, 2)
   fecha         DateTime
   usuarioId     Int
-  usuario       Usuario  @relation(fields: [usuarioId], references: [id], onDelete: Cascade)
   cuentaId      Int?
-  cuenta        Cuenta?  @relation(fields: [cuentaId], references: [id], onDelete: SetNull)
   creadoEn      DateTime @default(now())
   actualizadoEn DateTime @updatedAt
+  cuenta        Cuenta?  @relation(fields: [cuentaId], references: [id])
+  usuario       Usuario  @relation(fields: [usuarioId], references: [id], onDelete: Cascade)
 }
 
 model Presupuesto {
@@ -85,11 +79,11 @@ model Presupuesto {
   mes           Int
   anio          Int
   categoriaId   Int
-  categoria     Categoria @relation(fields: [categoriaId], references: [id], onDelete: Cascade)
   usuarioId     Int
-  usuario       Usuario   @relation(fields: [usuarioId], references: [id], onDelete: Cascade)
   creadoEn      DateTime  @default(now())
   actualizadoEn DateTime  @updatedAt
+  categoria     Categoria @relation(fields: [categoriaId], references: [id], onDelete: Cascade)
+  usuario       Usuario   @relation(fields: [usuarioId], references: [id], onDelete: Cascade)
 
   @@unique([categoriaId, mes, anio])
 }
