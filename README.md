@@ -78,3 +78,23 @@ Características principales:
 ## Modelo Entidad Relación
 
 ![Diagrama Entidad Relación](bd.png)
+
+## Configuración
+
+1. Copiar el archivo de entorno:
+
+cp .env.example .env
+
+2. Configurar las variables de entorno
+
+3. Instalar dependencias:
+
+npm install
+
+4. Ejecutar migraciones:
+
+npx prisma migrate dev
+
+5. Iniciar servidor:
+
+npm run start:dev
